@@ -1,0 +1,188 @@
+body{
+   background-image: url(pic/bg.jpg); 
+    width: 100%;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    margin: 0;
+
+}
+.clear{
+    clear: both;
+}
+header h1 {
+    color: #fff;
+    text-align: center;
+    padding: 80px;
+    background-image: url(pic/Coffee-banner1.jpg);
+    width: 100%;
+    margin: 0;
+}
+.list ul{
+   background: #FFF; 
+}
+.list li{
+    color: #fff;
+    list-style: none;
+    margin: 0;
+    padding: 12px;
+    display: block;
+    float:left;
+}
+.list li a{
+    display: block;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 6px;
+    margin: 6px;
+}
+.list li a:hover {
+    border: 2px solid #FFF;
+}
+.main{
+    width: 1200px;
+	border: solid #ccc 1px;
+	margin: 80px auto;
+	padding: 25px;
+    margin-left:auto;
+    background: #FFF;
+    border: solid #800000 2px;
+    border-radius: 25px;
+    
+}
+#login-form{
+	width: 400px;
+	border: solid #ccc 1px;
+	margin: 50px auto;
+	padding: 25px;
+}
+.box{
+    width: 100%;
+    border: none;
+    padding-left: auto;
+    
+}
+.box lable{
+    width: 40px; 
+}
+.box input{
+	padding: 10px;
+	font-size: 18px;
+    margin: 6px;
+}
+.basic-button{
+	color-background:#CCC;
+	color:#fff; 
+	padding: 20px;
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: uppercase;
+	border: none;
+}
+.basic-button a:hover{
+    color-background:#666;
+}
+
+.button{
+	color:#fff; 
+	padding: 2px;
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: uppercase;
+	border: none;
+    float: left;
+    margin-left: auto;
+}
+
+.error{
+	color: red;
+	font-size: 12px;
+}
+.tips{
+    color:#ccc;
+}
+.table{
+    margin-top: 20px;
+}
+.table th {
+	text-align:center;
+    font-size: 14px;
+    width: 28%;
+}
+caption{
+    font-size: 18px;
+	font-weight: 500;
+}
+ ul,li {
+    list-style: none;
+    margin: 0;
+    }
+            
+a {
+    text-decoration: none;
+    }
+            
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    }
+            
+a:link {
+    text-decoration: none;
+    }
+            
+img {
+    vertical-align: middle;
+    }
+            
+.btn-numbox {
+    margin-top: 20px;
+    }
+.btn-numbox li {
+     float: left;
+    }
+            
+.btn-numbox li .number,.kucun {
+    display: inline-block;
+    font-size: 12px;
+    color: #808080;
+    vertical-align: sub;
+     }
+.btn-numbox .count {
+    margin: 0 16px 0 -20px;
+    }
+            
+.num-jian,.input-num,.num-jia {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    line-height: 28px;
+    text-align: center;
+    font-size: 18px;
+    color: #999;
+    cursor: pointer;
+    border: 1px solid #CCC;
+    }
+.btn-numbox .count .input-num {
+    width: 58px;
+    height: 26px;
+    color: #333;
+    border-left: 0;
+    border-right: 0;
+    }
+.count li{
+    float: left;
+}
+.coffee{
+    margin:10px 0px;
+    padding: 20px 0;
+}
+.clear{
+    clear: both;
+}
+.border th{
+    border: 1px solid #ccc;
+    color: #666;
+    padding: 3px 6px;
+}
